@@ -12,14 +12,6 @@
     box-sizing: border-box;
   }
   
-  /*achtergrondafbeelding instellen*/
-  body {
-    font-family: sans-serif;
-    background-position: left top;
-    background-image: url("Inf.\ Achtergrond2.webp");
-    background-attachment: fixed;
-  }
-  
   /*De opmaak voor het logo*/
   .logo {
     color: var(--color-white);
@@ -118,10 +110,10 @@
     color: var(--color-black);
     text-indent: 15px;
   }
-  /* een witte 'box' waarin alle tekst komt te staan */
+  /*Box waarin de teksten van de site komen te staan*/
   .box {
-    background-color: white;
-    border: 5px solid white;
+    background-color: rgb(64, 75, 121);
+    border: 5px solid rgb(64, 75, 121);
     border-radius: 10px;
     padding: 50px;
     margin: 50px 200px;
@@ -130,7 +122,7 @@
   /*De opmaak voor de headers*/
   h1 {
     text-transform: uppercase;
-    margin: 15px;
+    margin: 20px;
     color: var(--color-black);
     text-decoration-color: var(--color-black);
   }
